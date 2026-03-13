@@ -240,7 +240,7 @@ export default function App() {
             </thead>
             <tbody className="text-[11px]">
               {[
-                { label: "小龙虾任务", v1: "无限", v2: "3次", v3: false },
+                { label: "小龙虾任务", v1: "无限", v2: "3天", v3: false },
                 { label: "一键剪辑", v1: true, v2: true, v3: false },
                 { label: "一键发布", v1: true, v2: true, v3: false },
                 { label: "账号注册", v1: "自动", v2: "自动", v3: "手动" },
