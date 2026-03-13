@@ -6,3 +6,7 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# accidental files from mis-typed ssh-keygen path
+eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)".pub
